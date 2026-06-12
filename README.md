@@ -2,7 +2,7 @@
  
 A simple desktop calendar app built with **Electron** — displays today's date in a clean, minimal UI.
 
-![Sanika's Calendar Preview]()
+![Sanika's Calendar Preview](preview.png)
  
 ---
  

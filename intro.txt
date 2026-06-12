@@ -1,0 +1,35 @@
+node -v
+v26.3.0
+npm -v
+11.16.0
+mkdir my-electron-app
+cd my-electron-app
+npm init -y
+Wrote to /Users/Desktop/DesktopApp_Intro/my-electron-app/package.json:
+
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
+
+
+npm install electron --save-dev
+
+added 13 packages, and audited 14 packages in 3s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+mac:my-electron-app sanika$ touch index.html main.js
+
+to start: npm run start

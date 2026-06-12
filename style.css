@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  user-select: none;
+  -webkit-app-region: drag;
+  border-radius: 20px;
+  margin: 0;
+  background: transparent;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 13.375rem;
+    padding: 1rem 1.0625rem;
+  
+    border-radius: 20px;
+    border: 1px solid #007979;
+    -webkit-app-region: drag;
+    background: linear-gradient(306deg, rgba(36, 177, 177, 0.50) 44.13%, rgba(217, 249, 223, 0.50) 57.74%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
+
+button,
+input,
+textarea,
+select {
+  -webkit-app-region: no-drag;
+  cursor: pointer;
+}
+
+.title {
+    display: flex;
+    padding: 0.25rem 0.625rem;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 100px;
+    border: 1px solid rgba(255, 240, 228, 0.85);
+    background: rgba(255, 224, 197, 0.80);
+
+    color: #24B1B1;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#calendar { 
+    display: flex;
+    width: 178px;
+    height: 156px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    border-radius: 20px;
+    border: 2px solid #1F6F5F;
+    opacity: 100%;
+    background: #24B1B1;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#day{
+width: 120px;
+height: 90px;
+text-align: center;
+color: #FFF;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: #1F6F5F;
+font-family: Merriweather;
+font-size: 105px;
+font-style: normal;
+font-weight: 450;
+line-height: normal;
+}
+
+#month{
+    width: 120px;
+    color: #FFF;
+    text-align: center;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #1F6F5F;
+font-family: Merriweather;
+font-size: 30px;
+font-style: normal;
+font-weight: 450;
+line-height: 30px;
+
+}
